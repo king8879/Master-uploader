@@ -55,7 +55,7 @@ async def account_login(bot, m):
         else:
             MR = raw_text3
 
-        token = f"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDI2MzYxNTkuNTc4LCJkYXRhIjp7Il9pZCI6IjY1OWZjZWU5YmI4YjFkMDAxOGFmYTExZCIsInVzZXJuYW1lIjoiODUzOTkyNjE5MCIsImZpcnN0TmFtZSI6IlNoaXR0dSIsImxhc3ROYW1lIjoiU2luZ2giLCJvcmdhbml6YXRpb24iOnsiX2lkIjoiNWViMzkzZWU5NWZhYjc0NjhhNzlkMTg5Iiwid2Vic2l0ZSI6InBoeXNpY3N3YWxsYWguY29tIiwibmFtZSI6IlBoeXNpY3N3YWxsYWgifSwiZW1haWwiOiJzaGl0dHVrdW1hcjM3QGdtYWlsLmNvbSIsInJvbGVzIjpbIjViMjdiZDk2NTg0MmY5NTBhNzc4YzZlZiJdLCJjb3VudHJ5R3JvdXAiOiJJTiIsInR5cGUiOiJVU0VSIn0sImlhdCI6MTc0MjAzMTM1OX0.HhM0JtZEyI4Laed4oQCmGkLjP-_5SvqqS1w-o5ZUbdU"
+        token = f"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEzMDA0OSIsImVtYWlsIjoiODYxODA4NjA4OUBnbWFpbC5jb20iLCJ0aW1lc3RhbXAiOjE3NDQ2MjcwNDcsInRlbmFudFR5cGUiOiJ1c2VyIiwidGVuYW50TmFtZSI6IiIsInRlbmFudElkIjoiIiwiZGlzcG9zYWJsZSI6ZmFsc2V9.zA094YPx5gO0jt1bRpaIiqHDcX7pSISSKFyreOmf4uY"
         await editable.edit("Now send the __Thumb URL__\n\nor Send `no`")
         input6 = await bot.listen(chat_id=m.chat.id, filters=filters.text & filters.user(m.from_user.id))
         thumb = input6.text
