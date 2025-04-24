@@ -1,6 +1,6 @@
 
 {
-    "name": " 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎",
+    "name": " vikas 𝘽𝙊𝙏𝙎",
     "description": "Download videos from various websites using this Telegram bot.",
     "logo": "https://tinypic.host/images/2025/02/07/DeWatermark.ai_1738952933236-1.png",
     "keywords": [
@@ -25,7 +25,7 @@
             "required": true
         },
         "AUTH_USERS": {
-            "description": "Enter your authorized user IDs, e.g., 6801378994,5919400080,...(Seprate by Comma) ",
+            "description": "Enter your authorized user IDs, e.g., 6554343173,...(Seprate by Comma) ",
             "required": true
         }
     },
